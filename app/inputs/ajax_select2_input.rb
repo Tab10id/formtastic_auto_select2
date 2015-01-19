@@ -13,10 +13,10 @@ class AjaxSelect2Input < Formtastic::Inputs::StringInput
     input_options = {
         value: value
     }.merge(extra_input_html_options).merge(super)
-    input_options[:data] = {
+    input_options[:data] = input_options[:data].to_h.merge({
         href: href,
         s2options: url_params[:select2_options].to_h.merge(multiple: multiple?)
-    }
+    })
     css_classes = [input_options[:class], 'auto-ajax-select2', 'input-hol']
     if multiple?
       css_classes << 'multiple'
