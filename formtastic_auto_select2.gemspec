@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "railties", ">= 3.1"
   spec.add_dependency 'select2-rails'
-  spec.add_dependency 'auto_select2', '>= 0.2.1'
-  spec.add_dependency 'formtastic', '>= 0.0.1'
+  spec.add_dependency 'auto_select2', '>= 0.3.1'
+  spec.add_dependency 'formtastic'
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
