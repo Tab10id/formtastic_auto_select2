@@ -1,7 +1,8 @@
 # formtastic_auto_select2
 
-Provide select2 input class for semantic_form
-The `FormtasticAutoSelect2` based on [auto_select2](https://github.com/Loriowar/auto_select2) gem.
+Provide select2 input class for semantic_form ([formtastic](https://github.com/justinfrench/formtastic)).
+
+Based on [auto_select2](https://github.com/Loriowar/auto_select2) gem.
 
 [![Gem Version](https://badge.fury.io/rb/formtastic_auto_select2.png)](http://badge.fury.io/rb/formtastic_auto_select2)
 
