@@ -1,4 +1,4 @@
-class Select2Input < Formtastic::Inputs::SelectInput
+class Formtastic::Inputs::Select2Input < Formtastic::Inputs::SelectInput
   extend ActiveSupport::Autoload
 
   def input_html_options

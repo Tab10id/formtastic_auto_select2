@@ -1,4 +1,4 @@
-class AjaxSelect2Input < Formtastic::Inputs::StringInput
+class Formtastic::Inputs::AjaxSelect2Input < Formtastic::Inputs::StringInput
   extend ActiveSupport::Autoload
 
   def input_html_options
